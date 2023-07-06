@@ -8,7 +8,7 @@ DC motorları, doğru akım (DC) elektrik enerjisini mekanik enerjiye dönüşt�
 Bobinler demir üzerine sarılır bunun nedeni bakır iletkeninin manyetik alanı kuvvetlendirmektir. Bu sayede çok daha fazla manyetik alan üretir.
 
 ### Manyetik Alan: 
-manyetik bir kaynaktan yayılan ve manyetik etkileşimlere neden olan bir alan olarak tanımlanır. Manyetik alan, elektromanyetik kuvvetin var olmasını sağlar
+Manyetik bir kaynaktan yayılan ve manyetik etkileşimlere neden olan bir alan olarak tanımlanır. Manyetik alan, elektromanyetik kuvvetin var olmasını sağlar
 ### Elektromanyetik Kuvvet:
 elektrik yüklerinin manyetik alanlarda etkileşime girdiği kuvvettir. Manyetik alan, elektromanyetik kuvvetin var olmasını sağlar.
 
@@ -20,12 +20,12 @@ elektrik yüklerinin manyetik alanlarda etkileşime girdiği kuvvettir. Manyetik
 ### Redüktörlü motorlar:
 motor redüktör ve dişlilerden oluşur. motorun çıkış hızını azaltmak veya torkunu artırmak için kullanılan bir dişli mekanizmasıyla birleştirilmiş motorlardır. Redüktörlü motorlar, yüksek hızda dönen bir motorun çıkışını düşük hıza veya yüksek torka (yüksek tork = güç) dönüştürmek için tasarlanmıştır.
 ### Titreşim motorları : 
-dc motorun ucuna dengesiz bir yük yerleştirerek oluşturulabilir.
+DC motorun ucuna dengesiz bir yük yerleştirerek oluşturulabilir.
 
 ### Servo motorlar: 
-belirlenen bir açıya göre hareket eden DC motorlardır. 180 veya 360 derece olabilir. Servo motorlar, belirli bir konuma hassas bir şekilde dönebilme yeteneğine sahiptir.
-### PWM :
-puls width modulation. 0 ve 1 lerden oluşan dijital sinyalin belirli bir süre içerisinde ne kadar 0 ne kadar 1 içeriyor buna bakarak servo motor  bunu anlamdırıp hareket edecektir.
+Belirlenen bir açıya göre hareket eden DC motorlardır. 180 veya 360 derece olabilir. Servo motorlar, belirli bir konuma hassas bir şekilde dönebilme yeteneğine sahiptir.
+### PWM :puls width modulation
+0 ve 1 lerden oluşan dijital sinyalin belirli bir süre içerisinde ne kadar 0 ne kadar 1 içeriyor buna bakarak servo motor  bunu anlamdırıp hareket edecektir.
 Hangi derecenin kaç PWM e denk geleceği: (örn: 90 derece için iki tane 1.5 ms)
 
 
@@ -43,7 +43,7 @@ Kırmızı kablo = VCC
 Sarı ya da turuncu kablo = PWM 
 
 ### Step motorları :
-belirli açılarla hareket eder her bir step belirli bir açıya tekabül eder. DC motordan farkı sürekli hareket etmez bizim verdiğimiz sinyale göre adım adım hareket eder.
+Belirli açılarla hareket eder her bir step belirli bir açıya tekabül eder. DC motordan farkı sürekli hareket etmez bizim verdiğimiz sinyale göre adım adım hareket eder.
 Step motorlar, dijital giriş sinyalleriyle kontrol edilir ve adımlar arasındaki dönme açısını kontrol etmek için belirli bir adım açısı kullanırlar.
 Bobinlere verdiğimiz elektriklenme sonucunda ortada bulunan mıknatıs açısal olarak hareket eder. 
 
